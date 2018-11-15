@@ -1,7 +1,8 @@
 __doc__="""
-    - Takes in a plain text file, "source-text.txt"
+    - Takes in a plain text file, "source-text.txt" (e.g. book text from Project Gutenberg)
     - Makes it into a unique list of words
     - Filters words to only be words containing letters from "coolLetters" 
+    - Saves a new plain text file with filtered words
 """
 
 ########################################
