@@ -42,13 +42,14 @@ for word in wordsSet:
 # make list of only cool words (words containing characters in coolLetters)
 
 coolWordsSet = []
-coolWord = False
+
 for word in cleanWordsSet:
+    coolWord = False
     for glyph in word:
         if glyph in coolLettersList:
             coolWord = True
-        else:
-            coolWord = False
+        # else:
+        #     coolWord = False
     if coolWord == True:
         # print(word)
         coolWordsSet.append(word)
