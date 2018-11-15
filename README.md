@@ -7,6 +7,10 @@ Take a plain text file and make a new file with words containing special charact
 
 ## Usage
 
+Check if you have Python 3 by opening a command line and running `python3 --version`. If you get an error message, [here's how to install Python 3](https://wsvincent.com/install-python3-mac/). 
+
+Once you have Python 3:
+
 1. Download the zip of this repo, then open the folder in a text editor like VS Code or Sublime Text
 2. Replace the `source-text.txt` with whatever source text you have
 3. In `make-set-of-cool-words.py`, update the top two variables as necessary
