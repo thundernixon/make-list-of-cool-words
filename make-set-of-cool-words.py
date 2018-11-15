@@ -50,7 +50,7 @@ for word in cleanWordsSet:
         else:
             coolWord = False
     if coolWord == True:
-        print(word)
+        # print(word)
         coolWordsSet.append(word)
 
 coolWords= open("cool-words.txt","w+")
