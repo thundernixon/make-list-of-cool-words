@@ -35,7 +35,7 @@ cleanWordsSet = []
 for word in wordsSet:
     for glyph in word:
         if glyph in removePunctuationList:
-            word = word.replace(glyph,'x')
+            word = word.replace(glyph,'')
     # add to "clean" list
     cleanWordsSet.append(word)
 
